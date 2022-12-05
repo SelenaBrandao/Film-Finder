@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+    
+    <head>
+        <title>Film Finder</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="filmlijst.js"></script>
+        <script defer src="java.js"></script>
+    </head>
+
+<body>
+    
+    <header>
+        <h1>Filmpje kijken?</h1>
+
+        <nav>
+            <input id="nieuwe-films" type="radio" name="film-filter" value="alle">
+            <label for="latest">Alle films</label>
+            
+            <input id="nieuwe-films" type="radio" name="film-filter" value="nieuwe">
+            <label for="latest">Nieuwe films</label>
+
+            <input id="avenger-films" type="radio" name="film-filter" value="avenger">
+            <label for="latest">Avenger</label>
+            
+            <input id="x-men-films" type="radio" name="film-filter" value="x-men">
+            <label for="latest">X-Men</label>
+    
+            <input id="prinses-film" type="radio" name="film-filter" value="prinses">
+            <label for="latest">Prinses</label>
+                
+            <input id="batman-film" type="radio" name="film-filter" value="batman">
+            <label for="latest">Batman</label>
+        </nav>
+    </header>
+
+    <main>
+        <ul id="filmlijst">
+        </ul>
+    </main>
+
+</body>
+
+</html>
